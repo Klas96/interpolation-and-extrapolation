@@ -1,5 +1,10 @@
 import numpy as np
 import pandas as pd
+from scipy import stats
+import matplotlib.pyplot as plt
+from datetime import datetime
+
+
 
 #Creating a Series by passing a list of values, letting pandas create a default integer index:
 
@@ -21,4 +26,14 @@ df2 = pd.DataFrame({'A': 1.,
 
 #The columns of the resulting DataFrame have different dtypes.
 
-df2.dtypes
+
+#pd.read_csv()
+
+#print(s)
+#print(dates)
+#print(df2.dtypes)
+#print(df2.A)
+
+s.plot(figsize=(18,5))
+
+plt.show()
